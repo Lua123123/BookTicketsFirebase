@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_25sdp"
+    android:paddingEnd="@dimen/_25sdp">
+
+    <LinearLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="@drawable/bg_linear_layout"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtBill"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Type: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Phone: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Dishes: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtCarSeat"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="Payment: "
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtPayment"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:text="Do you want to sign out?"
+                android:textAlignment="center"
+                android:textColor="@color/nearBlack"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/bg_img_bill"
+        android:padding="@dimen/_8sdp"
+        android:src="@drawable/ic_bill"
+        app:layout_constraintBottom_toTopOf="@+id/layoutDialog"
+        app:layout_constraintEnd_toEndOf="@+id/layoutDialog"
+        app:layout_constraintStart_toStartOf="@+id/layoutDialog"
+        app:layout_constraintTop_toTopOf="@+id/layoutDialog"
+        app:tint="@color/nearBlack" />
+
+    <Button
+        android:id="@+id/btnConFirmDialog"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:backgroundTint="@color/nearBlack"
+        android:text="CONFIRMAR"
+        android:textAllCaps="false"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/_11ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutDialog"
+        app:layout_constraintEnd_toEndOf="@+id/layoutDialog"
+        app:layout_constraintStart_toStartOf="@+id/layoutDialog"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDialog" />
+
+    <Button
+        android:id="@+id/btnCancelDialog"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:alpha="0.4"
+        android:backgroundTint="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="CANCEL"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintEnd_toEndOf="@+id/btnConFirmDialog"
+        app:layout_constraintStart_toStartOf="@+id/btnConFirmDialog"
+        app:layout_constraintTop_toBottomOf="@+id/btnConFirmDialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

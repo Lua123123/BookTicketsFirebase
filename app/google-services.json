@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "686058609852",
+    "firebase_url": "https://book-tickets-firebase-default-rtdb.firebaseio.com",
+    "project_id": "book-tickets-firebase",
+    "storage_bucket": "book-tickets-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686058609852:android:20400edacc98a4caff84b9",
+        "android_client_info": {
+          "package_name": "com.example.bookticketsfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686058609852-ci22m7di0hi2i9u5cjjtmp4jdqdle4ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZW_IIPlrCeqdYAeIU4SrlpD0-wzNWa_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686058609852-ci22m7di0hi2i9u5cjjtmp4jdqdle4ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686058609852:android:b111d64d0eecbf45ff84b9",
+        "android_client_info": {
+          "package_name": "com.example.restaurantfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686058609852-ci22m7di0hi2i9u5cjjtmp4jdqdle4ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZW_IIPlrCeqdYAeIU4SrlpD0-wzNWa_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686058609852-ci22m7di0hi2i9u5cjjtmp4jdqdle4ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
